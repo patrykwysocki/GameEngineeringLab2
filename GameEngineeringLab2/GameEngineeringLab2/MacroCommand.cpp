@@ -20,10 +20,6 @@ void MacroCommand::remove(Command*c)
 {
 	commands.remove(c);
 }
-void MacroCommand::removeAll()
-{
-	commands.clear();
-}
 void MacroCommand::execute()
 {
 	std::cout << "\n" << std::endl;

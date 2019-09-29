@@ -12,7 +12,6 @@ public:
 	virtual void execute();
 	virtual void undo();
 	virtual void redo();
-	virtual void removeAll();
 
 private:
 	std::list<Command*> commands;
