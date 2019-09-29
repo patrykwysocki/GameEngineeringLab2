@@ -21,14 +21,21 @@
   <ItemGroup>
     <ClCompile Include="Command.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="MacroCommand.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Command.h" />
+    <ClInclude Include="ECommand.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="MacroCommand.h" />
+    <ClInclude Include="QCommand.h" />
+    <ClInclude Include="RCommand.h" />
+    <ClInclude Include="TCommand.h" />
+    <ClInclude Include="WCommand.h" />
+    <ClInclude Include="YCommand.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="ASSETS\IMAGES\SFML-LOGO.png">

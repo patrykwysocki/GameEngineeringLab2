@@ -1,16 +1,8 @@
-/// <summary>
-/// author Pete Lowe May 2019
-/// you need to change the above line or lose marks
-/// </summary>
 #ifndef GAME_HPP
 #define GAME_HPP
-/// <summary>
-/// include guards used so we don't process this file twice
-/// same as #pragma once
-/// Don't forget the endif at the bottom
-/// </summary>
-#include <SFML/Graphics.hpp>
 
+#include <SFML/Graphics.hpp>
+#include "InputHandler.h"
 class Game
 {
 public:
@@ -37,7 +29,7 @@ private:
 	sf::Texture m_logoTexture; // texture used for sfml logo
 	sf::Sprite m_logoSprite; // sprite used for sfml logo
 	bool m_exitGame; // control exiting game
-
+	InputHandler handler = InputHandler();
 };
 
 #endif // !GAME_HPP

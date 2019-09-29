@@ -33,6 +33,9 @@
     <ClCompile Include="MacroCommand.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -45,6 +48,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MacroCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="YCommand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

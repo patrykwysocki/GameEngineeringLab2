@@ -22,6 +22,7 @@ Game::Game() :
 {
 	setupFontAndText(); // load font 
 	setupSprite(); // load texture
+	
 }
 
 /// <summary>
@@ -76,6 +77,7 @@ void Game::processEvents()
 		if (sf::Event::KeyPressed == newEvent.type) //user pressed a key
 		{
 			processKeys(newEvent);
+			handler.handleInput(newEvent);
 		}
 	}
 }
@@ -91,6 +93,7 @@ void Game::processKeys(sf::Event t_event)
 	{
 		m_exitGame = true;
 	}
+	
 }
 
 /// <summary>
@@ -103,6 +106,7 @@ void Game::update(sf::Time t_deltaTime)
 	{
 		m_window.close();
 	}
+	//handler.handleInput(event);
 }
 
 /// <summary>
